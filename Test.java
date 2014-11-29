@@ -4,5 +4,6 @@ public class Test
 	{
 		System.out.println ( " Hello World ");
 		System.out.println ( " my name is syed ");
+		System.out.println ( " I am MSc student ");
 	}
 }
