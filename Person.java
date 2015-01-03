@@ -1,4 +1,5 @@
-public class Person {
+public class Person
+{
 	public String name;
 	public Person next;
 	public Person prev;
@@ -22,10 +23,12 @@ public class Person {
 
 	public Person remove()
 	{
-		if ( prev != null ) {
-			 Person result = next;
-			 return result;
-		} else {
+		if ( prev != null )
+		{
+			 Person removePerson = next;
+			 return removePerson;
+		} else
+		{
 			return null;
 		}
 
