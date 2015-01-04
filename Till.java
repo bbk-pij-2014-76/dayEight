@@ -7,7 +7,7 @@ public class Till implements PersonQueue
 	{
 		queueHead = null;
 		queueTail = null;
-	tillName = str;
+		tillName = str;
 	}
 	public void insert (Person person)
 	{
